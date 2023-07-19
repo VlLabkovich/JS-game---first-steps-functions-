@@ -38,7 +38,7 @@ const randomNumber = getRandomNumber(max);
 // выводим результат пользователю, вызовом функции playGame с аргументами
 
 const playGame = (minLimit, maxLimit, attsNumber, number, name) => {
-    alert(`Здарова, ${name}!
+    alert(`Привет, ${name}!
     Я загадал число больше, чем ${minLimit}, и меньше, чем ${maxLimit}.
     У тебя ${attsNumber} попыток отгадать его. Удачи, бро!`)
     for (let i = 1; i <= attCount; i++) {
